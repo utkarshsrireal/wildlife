@@ -1,0 +1,423 @@
+
+.carousel-inner {
+    top: 0;
+    left: 0;
+}
+.carousel-inner h1{
+    font-family:fantasy;
+}
+.carousel-inner img{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+.carousel-inner h1{
+    position: absolute;
+    z-index: 20;
+    top: 80%;
+    left: 10%;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.carousel-item p{
+    position: absolute;
+    z-index: 20;
+    color: brown;
+    height: 200px;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    padding: 20px 0 0 0;
+    z-index: 20;
+    background-color: rgba(92, 116, 58, 0.47);
+    margin-top: 30px;
+    list-style: none;
+}
+
+.main-nav a{
+    margin-right: 60px;
+    color: #c6cff5;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+.last{
+    background-color: rgba(76, 37, 93, 0.6);
+    padding: 20px 0;
+    margin-top: -20px;
+    padding-left: 60px;
+    float: right;
+}
+
+.last:hover{
+    background-color: rgba(76, 37, 93, 0.99);
+}
+
+.main-nav a:hover{
+    color: #80f020;
+}
+
+.sub-menu-1 {
+    display: none;
+}
+
+.main-nav li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background: rgba(92, 116, 58, 0.67);
+    margin-top: 20px;
+    margin-left: 0px;
+}
+
+.main-nav li:hover .sub-menu-1 li{
+    display: block;
+    margin: 10px;
+    width: 150px;
+    padding: 3px 20px;
+    border-bottom: 1px #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+    transition: 0.3s;
+}
+
+.main-nav li:hover .sub-menu-1 li:last-child{
+    border-bottom: none;
+}
+.main-nav li:hover .sub-menu-1 li a:hover{
+    color: #c6a13e;
+}
+
+
+.row img{
+    position: absolute;
+    z-index: 21;
+    height: 120px;
+    width: 140px;
+    margin: 10px 10px;
+}
+
+.text-h1 {
+    display: flex;
+    justify-content: center;
+    margin: 5% 40%;
+    border-bottom: 3px solid #aeb2bc;
+}
+
+.para1 {
+    display: flex;
+}
+
+.para1 p{
+    flex-basis: 50%;
+    margin: 0 3%;
+    font-size: 20px;
+}
+.para1 img{
+    flex-basis: 50%;
+    height: 15%;
+    width: 30%;
+    position: relative;
+    float: right;
+    box-shadow: 2px 10px 15px #696969;
+    margin-right: 30px;
+}
+
+
+
+
+.Diet {
+    display: flex;
+    margin: 5% 3%;
+}
+.Diet img{
+    position: relative;
+    flex-basis: 50%;
+    height: 15%;
+    width: 30%;
+    box-shadow: 2px 10px 15px #696969;
+}
+.Diet p{
+    flex-basis: 50%;
+    margin-left: 3%;
+    font-size: 20px;
+}
+.Dheading {
+    display: flex;
+    justify-content: center;
+    margin: 5% 47%;
+    border-bottom: 3px solid #9b9b9b;
+}
+
+
+.Whole-threat {
+    background-color: #2e2e2e;
+}
+
+.theading h3{
+    display: flex;
+    justify-content: center;
+    color: #ff0000;
+    margin: 10% 0 2% 0;
+    text-transform: uppercase;
+    padding-top: 3%;
+}
+
+.threat p{
+    margin: 0 5% 3%;
+    color: #d1d1d1;
+    font-size: 20px;
+}
+
+
+
+.threat img{
+    margin: 0 15% 5%;
+    width: 70%;
+    height: 90vh;
+}
+
+.threat span p{
+    font-size: 13px;
+    position: absolute;
+    margin: -5% 0 3% 60%;
+}
+
+
+
+.loca p{
+    margin: 0 5%;
+    padding-bottom: 3%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.lheading {
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+    
+    margin: 5% 45% 0%;
+}
+
+.loc {
+    background-color: rgba(93, 253, 64, 0.6);
+}
+
+.afile {
+    margin: 5% 5% 3%;
+}
+
+.afile audio{
+    margin: 0.7% auto 3%;
+}
+
+.atext {
+    color: #4b4b4b;
+    
+}
+
+
+
+
+/*----footer----*/
+
+
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row1{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(242, 12, 12, 0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+.footer-col p,h4{
+    color: #fff;
+}
+
+.phone{
+    width: 24px;
+    height: 3vh;
+    position: absolute;
+}
+.phonenumber{
+    margin-left: 12%;
+    margin-bottom: 30px;
+}
+
+.add{
+    width: 20px;
+    height: 3vh;
+    position: absolute;
+    
+}
+
+.Address{
+    margin-left: 12%;
+    margin-bottom: 30px;
+}
+
+.mail{
+    width: 18px;
+    height: 3vh;
+    position: absolute;
+}
+.email{
+    margin-left: 12%;
+}
+
+.footer-col{
+    margin-right: 10%;
+}
+.pop{
+    margin-right: 0;
+}
+
+
+
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+
+
+
+
+@media only screen and (max-width: 480px){
+    .carousel-inner img{
+        width: 100%;
+        height: 65vh;
+        background-size: cover;
+    }
+    .main-nav{
+        display: none;
+    }
+    .row img{
+        height: 12vh;
+        width: 20%;
+        position: fixed;
+    }
+    .para1{
+        display: block;
+    }
+    .para1 img{
+        display: block;
+        width: 100%;
+        margin: 5% 0;
+    }
+    .para1 p{
+        margin: 5%;
+    }
+    .loc{
+        display: block;
+        margin-top: 100%;
+    }
+    .Diet{
+        display: block;
+    }
+    .Diet img{
+        position: absolute;
+        margin: 125% 0 10% 10%;
+        height: 40vh;
+        width: 70%;
+    }
+    .Whole-threat{
+        margin-top: 70%;
+        height: 250vh;
+    }
+    .Whole-threat img{
+        height: 40vh;
+    }
+    .Whole-threat span p{
+        margin-left: 15%;
+        margin-right: 20px;
+        font-size: 11px;
+    }
+}
